@@ -41,17 +41,17 @@ from multivolumefile import MultiVolume
 import threading
 
 #BoT Configuration Variables
-api_id = 9910861
-api_hash = "86e927460a8998ba6d84e9c13acfda95"
-bot_token = "6281846554:AAFnRdmvYs2MEh2dVqNEwd3x6Pbqmv8glNQ"
-Channel_Id = -1001944454354
+api_id = 11405596
+api_hash = "39ad6135ac9b75a47f2d1804c092c8f8"
+bot_token = "5691963671:AAF-5QsRQshSFWQf7j5CHwx3CiQEI_qNKu8"
+Channel_Id = -1001372109542
 msg_id = 3
 bot = Client("bot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
-boss = ['UHTRED_OF_BEBBANBURG','Stvz20']#usuarios supremos
+boss = ['UHTRED_OF_BEBBANBURG','Michel1203']#usuarios supremos
 Configs = {"vcl":'035649148fac062426ee3c5d72a6ec1f',"gtm":"cc9c6b9c0523b17c7f00202993ceac1c","uvs":"4ce7bf57fb75c046a9fbdd30900ea7c9","ltu":"a816210ff41853b689c154bad264da8e",
 			"ucuser": "", "ucpass":"","uclv_p":"", "gp":'socks5://181.225.255.48:9050', "s":"On", 
 			'UHTRED_OF_BEBBANBURG': {'z': 99,"m":"u","a":"c","t":"y"}, 
-			'Stvz20': {'z': 99,"m":"u","a":"upltu","t":"y"}
+			'Michel1203': {'z': 99,"m":"u","a":"upltu","t":"y"}
 			}
 start = time()
 Urls = {} #urls subidos a educa
@@ -1135,6 +1135,6 @@ def upecos(session,csrfToken,path,msg,username, proxy):
     msg.edit(f"**Subido🔽\nNombre: {namefile}\nTamaño:{size} Mb**")
 
 bot.start()
-bot.send_message(5416296262,'**BoT Iniciado**')
+bot.send_message(878626783,'**BoT Iniciado**')
 print("Iniciado")
 bot.loop.run_forever()
